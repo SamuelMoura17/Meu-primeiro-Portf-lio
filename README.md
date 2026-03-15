@@ -1,2 +1,2 @@
 # Meu primeiro Portifólio
-Meu primeiro Portifólio como iniciante na área de desenvolvimento web.
+Meu primeiro Portfólio como iniciante na área de desenvolvimento web.
