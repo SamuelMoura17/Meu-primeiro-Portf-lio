@@ -111,6 +111,15 @@ div#foto img{
     border-radius: 50%;
 
     margin-bottom: 50px;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+}
+div#foto img:hover{
+    transition: 0.3s;
+
+    box-shadow: 0 10px 30px rgba(0,100,255,0.35);
+
+    width: 180px;
 }
 
 section#Sobre > p{
@@ -124,6 +133,7 @@ section#projetos{
     padding: 20px;
 
     margin: 10px;
+    margin-bottom: 150px;
 }
 
 section#projetos > h2{
@@ -134,8 +144,6 @@ section#projetos > h2{
 
     margin-bottom: 60px;
 }
-
-
 
 div.imagens{
     display: flex;
@@ -186,11 +194,51 @@ button{
 
     color: black;
 
-    padding: 10px;
+    box-shadow: 0px 6px 15px rgba(0,0,0,0.7);
+
+    padding: 9px;
 
     margin-top: 20px;
 
     border-radius: 10px;
+}
+
+button:hover{
+    transition: 0.3s;
+
+    font-size: 1.4vw;
+
+    padding: 13px;
+
+    transform: translateY(-2px);
+
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.9);
+}
+
+section#skills{
+    padding: 20px;
+
+    margin: 10px;
+    margin-bottom: 130px;
+}
+
+section#skills > h2{
+    font-family: var(---fonte-titulos);
+    font-size: clamp(25px, 2.5vw, 40px);
+
+    text-shadow: 0px 4px 15px rgba(0,0,0,0.9);
+
+    margin-bottom: 60px;
+}
+
+div.habilidades{
+    display: flex;
+
+    gap: 40px;
+}
+
+div.habilidade{
+    margin: auto;
 }
 
 footer{
