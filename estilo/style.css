@@ -304,6 +304,64 @@ strong{
     text-shadow: 0 0 5px rgba(0,150,255,0.5);
 }
 
+section#certificados{
+    padding: 20px;
+
+    margin: 10px;
+    margin-bottom: 130px;
+}
+
+section#certificados > h2{
+    font-family: var(---fonte-titulos);
+    font-size: clamp(25px, 2.5vw, 40px);
+
+    text-shadow: 0px 4px 15px rgba(0,0,0,0.9);
+
+    margin-bottom: 80px;  
+}
+
+h3.tema{
+    font-family: var(---fonte-titulos);
+    text-align: center;
+
+    font-size: 2vw;
+
+    margin-bottom: 20%;
+    
+    text-shadow: 0px 4px 15px rgba(0,0,0,0.9);
+
+}
+
+div#imgg{
+    display: flex;
+
+    gap: 100px;
+
+    padding: 20px;
+}
+
+div.img img{
+    width: 20vw;
+    height: 20vw;
+
+    border-radius: 50%;
+
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+
+    margin-bottom: 130px
+}
+
+div.img img:hover{
+    transition: 0.3s;
+
+    transform: translateY(-6px);
+
+    width: 22vw;
+    height: 22vw;
+
+    box-shadow: 0 0 25px rgba(56, 139, 253, 0.6);
+}
+
 section#contatos{
     padding: 20px;
 
@@ -330,7 +388,7 @@ div.icones{
 
     margin-bottom: 50px;
 
-    margin-left: aut;
+    margin-left: 10px;
     margin-right: auto;
 
     padding: 30px;
