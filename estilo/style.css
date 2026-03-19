@@ -379,7 +379,7 @@ section#contatos > h2{
 }  
 
 div.contato{
-    columns: 2;
+    columns: 3;
 }
 
 div.icones{
@@ -388,10 +388,10 @@ div.icones{
 
     margin-bottom: 50px;
 
-    margin-left: 10px;
+    margin-left: auto;
     margin-right: auto;
 
-    padding: 30px;
+    padding: 2.5vw;
 
     border-radius: 30px;
 
@@ -414,7 +414,7 @@ div.icones:hover{
 
     background-color: rgba(14, 1, 1, 0.377);
 
-    padding: 35px;
+    padding: 3vw;
 
     transform: translateY(-6px);
 }
@@ -452,7 +452,7 @@ div.icones:hover p{
     opacity: 1;
 
     margin-top: clamp(10px, 7.8vw, 40vw);
-    margin-left: -10.2vw;
+    margin-left: -11vw;
 }
 
 p#voltar{
